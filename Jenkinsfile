@@ -9,7 +9,7 @@ pipeline {
         }
                 stage('zip file') {
             steps {
-                sh 'zip -r $GIT_COMMIT.zip /var/lib/jenkins/workspace/'Clone GitHub Repo''
+                sh 'zip -r $GIT_COMMIT.zip /var/lib/jenkins/workspace/"Clone GitHub Repo"'
             }
         }
 
